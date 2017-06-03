@@ -6,10 +6,11 @@
   Copyright © 2017 UpliftSeva. All rights reserved.
 */
 
-"title" = "Uplifted";
-"info" = "You will be asked 9 questions to determine if you are suffering from a form of depression.";
+"title_text" = "Uplifted";
+"subtitle_text" = "A PHQ-9 Test";
+"info_text" = "You will be asked 9 questions to determine if you are suffering from a form of depression.";
 
-"start_test_button" = "Start";
+"start_button_text" = "Start";
 
 "instruction_step_title" = "Over the last 2 weeks,";
 "instruction_step_text" = "how often have you been bothered by any of the following problems?";
