@@ -1,0 +1,52 @@
+/* 
+  Localizable.strings
+  Uplift
+
+  Created by Raunaq Sawhney on 6/2/17.
+  Copyright © 2017 UpliftSeva. All rights reserved.
+*/
+
+"title" = "Uplifted";
+"info" = "You will be asked 9 questions to determine if you are suffering from a form of depression.";
+
+"start_test_button" = "Start";
+
+"instruction_step_title" = "Over the last 2 weeks,";
+"instruction_step_text" = "how often have you been bothered by any of the following problems?";
+
+"question_1_header" = "Loss of interest or pleasure in doing things.";
+"question_2_header" = "Feeling of down, depressed, or hopeless.";
+"question_3_header" = "Trouble sleeping, or sleeping too much.";
+"question_4_header" = "Feeling tired or having little energy.";
+"question_5_header" = "Poor appetite or overeating.";
+"question_6_header" = "Feeling bad about yourself - or that you are a failure or having let yourself or your family down.";
+"question_7_header" = "Trouble concentrating on things, such as reading the newspaper or watching television.";
+"question_8_header" = "Moving or speaking so slowly that people could have noticed? Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual";
+"question_9_header" = "Thoughts that you would be better off dead, or of hurting yourself in some way.";
+
+"option_more_than_half_the_days" = "More than half the days";
+"option_nearly_every_day" = "Nearly every day";
+"option_not_at_all" = "Not at all";
+"option_several_days" = "Several days";
+
+"result_mild_depression" = "mild depression";
+"result_minimal_depression" = "minimal depression";
+"result_moderate_depression" = "moderate depression";
+"result_moderately_severe_depression" = "moderately severe depression";
+"result_no_depression" = "not depressed";
+"result_severe_depression" = "severe depression";
+
+"result_text_mild_depression" = "Your answers indicate that you have a mild depression.";
+"result_text_minimal_depression" = "Your answers indicate that you have a minimal depression.";
+"result_text_moderate_depression" = "Your answers indicate that you have a moderate depression.";
+"result_text_moderately_severe_depression" = "Your answers indicate that you have a moderately severe depression.";
+"result_text_no_depression" = "Your answers indicate that you are not depressed.";
+"result_text_severe_depression" = "Your answers indicate that you have a severe depression.";
+
+"suicidal_text" = "You have stated that you felt to be better off dead on at least several days.\nPlease talk to someone!";
+
+"info_no_depression_not_enough_answers_critical" = "You have answered fewer than four questions with at least \"more than half the days\". Therefore a depressive disorder is not considered.";
+"info_no_depression_first_questions_not_critical" = "You have not answered the first or second questions with at least \"more than half the days\". Therefore a depressive disorder is not considered.";
+"info_depression" = "You have answered four or more questions with at least \"more than half the days\", including the first or second question. Therefore a depressive disorder has to be considered.";
+
+"find_help_credits_format" = "The 'Find Help' link is provided by the %@";
