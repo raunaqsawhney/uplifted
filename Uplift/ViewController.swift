@@ -16,23 +16,6 @@ class ViewController: UIViewController {
         present(taskViewController, animated: true, completion: nil)
     }
     
-    func fadeViewInThenOut(view : UIView, delay: NSTimeInterval) {
-        
-        let animationDuration = 0.25
-        
-        // Fade in the view
-        UIView.animateWithDuration(animationDuration, animations: { () -> Void in
-            view.alpha = 1
-        }) { (Bool) -> Void in
-            
-            // After the animation completes, fade out the view after a delay
-            
-            UIView.animateWithDuration(animationDuration, delay: delay, options: .CurveEaseInOut, animations: { () -> Void in
-                view.alpha = 0
-            },
-                                       completion: nil)
-        }
-    }
 }
 
 extension ViewController : ORKTaskViewControllerDelegate {
