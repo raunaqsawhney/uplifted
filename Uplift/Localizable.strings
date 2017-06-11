@@ -31,6 +31,8 @@
 "option_several_days" = "Several days";
 
 "result_header" = "You responses indicate that you have";
+"possible_score_label" = "POSSIBLE SCORE";
+"your_score_label" = "YOUR SCORE";
 
 "result_mild_depression" = "mild depression";
 "result_minimal_depression" = "minimal depression";

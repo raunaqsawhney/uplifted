@@ -14,10 +14,24 @@ class ResultsViewController: UIViewController {
     @IBOutlet weak var result_text: UILabel!
     @IBOutlet weak var your_score: UILabel!
     @IBOutlet weak var possible_score_label: UILabel!
-
     @IBOutlet weak var your_score_label: UILabel!
+    
     var resultsPassed = [Int]()
 
+    
+    func topMostController() -> UIViewController {
+        var topController: UIViewController = UIApplication.shared.keyWindow!.rootViewController!
+        while (topController.presentedViewController != nil) {
+            topController = topController.presentedViewController!
+        }
+        return topController
+    }
+    
+    @IBAction func newTestPressed(_ sender: UIButton) {
+        print("hello")
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -31,6 +45,11 @@ class ResultsViewController: UIViewController {
     }
     
     func showResults(results: [Int]) -> Void {
+        
+        self.results_header.text = NSLocalizedString("result_header", comment: "")
+        self.your_score_label.text = NSLocalizedString("your_score_label", comment: "")
+        self.possible_score_label.text = NSLocalizedString("possible_score_label", comment: "")
+
         
         var score = 0
         
