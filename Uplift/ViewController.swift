@@ -10,7 +10,7 @@ import ResearchKit
 
 class ViewController: UIViewController {
     
-    // Properties
+    // Privates
     @IBOutlet weak var title_text: UILabel!
     @IBOutlet weak var subtitle_text: UILabel!
     @IBOutlet weak var info_text: UILabel!
@@ -69,9 +69,9 @@ extension ViewController : ORKTaskViewControllerDelegate {
             }
         }
         
-        print(resultsList)
         let topViewController = topMostController()
         let viewController = self.storyboard!.instantiateViewController(withIdentifier: "ResultsViewController") as! ResultsViewController
+        viewController.resultsPassed = resultsList
         topViewController.present(viewController, animated: true)
         
         //taskViewController.dismiss(animated: true, completion: nil)

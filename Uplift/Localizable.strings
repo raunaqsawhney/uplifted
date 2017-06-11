@@ -30,11 +30,13 @@
 "option_not_at_all" = "Not at all";
 "option_several_days" = "Several days";
 
+"result_header" = "You responses indicate that you have";
+
 "result_mild_depression" = "mild depression";
 "result_minimal_depression" = "minimal depression";
 "result_moderate_depression" = "moderate depression";
 "result_moderately_severe_depression" = "moderately severe depression";
-"result_no_depression" = "not depressed";
+"result_no_depression" = "no depression";
 "result_severe_depression" = "severe depression";
 
 "result_text_mild_depression" = "Your answers indicate that you have a mild depression.";
