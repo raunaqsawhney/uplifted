@@ -83,11 +83,8 @@ public var SurveyTask: ORKOrderedTask {
                                      answer: answer_format)
     question_9.isOptional = false
     
-    let summary_step = ORKCompletionStep(identifier: "summary_step")
-    summary_step.title = "Right. Off you go!"
-    summary_step.text = "That was easy!"
-    
-    steps += [instruction_step, question_1, question_2, question_3, question_4, question_5, question_6, question_7, question_8, question_9, summary_step]
+    steps += [instruction_step, question_1, question_2]
+    //steps += [instruction_step, question_1, question_2, question_3, question_4, question_5, question_6, question_7, question_8, question_9]
         
     return ORKOrderedTask(identifier: "SurveyTask", steps: steps)
 }

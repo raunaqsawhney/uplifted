@@ -45,9 +45,36 @@ class ViewController: UIViewController {
 
 extension ViewController : ORKTaskViewControllerDelegate {
     
+    func topMostController() -> UIViewController {
+        var topController: UIViewController = UIApplication.shared.keyWindow!.rootViewController!
+        while (topController.presentedViewController != nil) {
+            topController = topController.presentedViewController!
+        }
+        return topController
+    }
+    
     func taskViewController(_ taskViewController: ORKTaskViewController, didFinishWith reason: ORKTaskViewControllerFinishReason, error: Error?) {
-        //Handle results with taskViewController.result
-        taskViewController.dismiss(animated: true, completion: nil)
+        
+        let taskResult = taskViewController.result
+        let results = taskResult.results as! [ORKStepResult]
+
+        var resultsList = [Int]()
+        
+        for thisStepResult in results {
+            let stepResults = thisStepResult.results as! [ORKQuestionResult]
+            for item in stepResults {
+                if let answer = item as? ORKChoiceQuestionResult {
+                    resultsList.append(answer.choiceAnswers![0] as! Int)
+                }
+            }
+        }
+        
+        print(resultsList)
+        let topViewController = topMostController()
+        let viewController = self.storyboard!.instantiateViewController(withIdentifier: "ResultsViewController") as! ResultsViewController
+        topViewController.present(viewController, animated: true)
+        
+        //taskViewController.dismiss(animated: true, completion: nil)
     }
 }
 

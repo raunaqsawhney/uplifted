@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22112BEF1EECBE9B007E9AA2 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22112BEE1EECBE9B007E9AA2 /* ResultsViewController.swift */; };
 		22A5BC371EE27C2E0070B9F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A5BC361EE27C2E0070B9F8 /* AppDelegate.swift */; };
 		22A5BC391EE27C2E0070B9F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A5BC381EE27C2E0070B9F8 /* ViewController.swift */; };
 		22A5BC3E1EE27C2F0070B9F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A5BC3D1EE27C2F0070B9F8 /* Assets.xcassets */; };
@@ -73,6 +74,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		22112BEE1EECBE9B007E9AA2 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultsViewController.swift; path = "View Controllers/ResultsViewController.swift"; sourceTree = "<group>"; };
 		22A5BC331EE27C2E0070B9F8 /* Uplift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uplift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A5BC361EE27C2E0070B9F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22A5BC381EE27C2E0070B9F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				22A5BC3D1EE27C2F0070B9F8 /* Assets.xcassets */,
 				22A5BC421EE27C2F0070B9F8 /* Info.plist */,
 				22A5BC7D1EE280A90070B9F8 /* SurveyTask.swift */,
+				22112BEE1EECBE9B007E9AA2 /* ResultsViewController.swift */,
 			);
 			path = Uplift;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 				22A5BC391EE27C2E0070B9F8 /* ViewController.swift in Sources */,
 				22A5BC371EE27C2E0070B9F8 /* AppDelegate.swift in Sources */,
 				22A5BC7E1EE280A90070B9F8 /* SurveyTask.swift in Sources */,
+				22112BEF1EECBE9B007E9AA2 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
