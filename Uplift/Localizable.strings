@@ -6,40 +6,38 @@
   Copyright © 2017 UpliftSeva. All rights reserved.
 */
 
-"title_text" = "Uplifted";
-"subtitle_text" = "A PHQ-9 Test";
-"info_text" = "You will be asked 9 questions to determine if you are suffering from a form of depression.";
+"title_text" = "Uplifted\nਉਤਸ਼ਾਹਿਤ";
+"subtitle_text" = "The PHQ-9 Test\nਇਕ PHQ-9 ਟੈਸਟ";
+"info_text" = "You will be asked 9 questions to determine if you are suffering from a form of depression.\n\nਤੁਹਾਨੂੰ ਇਹ ਨਿਰਧਾਰਤ ਕਰਨ ਲਈ 9 ਸਵਾਲ ਪੁੱਛੇ ਜਾਣਗੇ ਕਿ ਕੀ ਤੁਸੀਂ ਉਦਾਸੀ ਦੇ ਰੂਪ ਤੋਂ ਪੀੜਤ ਹੋ?";
 
-"start_button_text" = "Start";
+"instruction_step_title" = "Over the last 2 weeks, how often have you been bothered by any of the following problems?";
+"instruction_step_text" = "ਪਿਛਲੇ 2 ਹਫ਼ਤਿਆਂ ਵਿੱਚ, ਇਨ੍ਹਾਂ ਵਿੱਚੋਂ ਕਿਸੇ ਵੀ ਸਮੱਸਿਆ ਨਾਲ ਤੁਹਾਨੂੰ ਕਿੰਨੀ ਵਾਰ ਪਰੇਸ਼ਾਨ ਕੀਤਾ ਗਿਆ ਹੈ?";
 
-"instruction_step_title" = "Over the last 2 weeks,";
-"instruction_step_text" = "how often have you been bothered by any of the following problems?";
+"question_1_header" = "Loss of interest or pleasure in doing things.\nਕੰਮ ਕਰਨ ਵਿਚ ਦਿਲਚਸਪੀ ਘੱਟ";
+"question_2_header" = "Feeling of down, depressed, or hopeless.\nਬੇਵੱਸ, ਿਨਰਉਤਸ਼ਾਹ, ਜ  ਨਾਉਮੀਦ ਮਿਹਸੂਸ ਕਰਨਾ";
+"question_3_header" = "Trouble sleeping, or sleeping too much.\nਨ ਦ ਆਉਣ ਜ  ਸੁੱਤੇ ਰਿਹਣ ਿਵੱਚ ਪਰੇਸ਼ਾਨੀ ਹੋਣੀ, ਜ  ਬਹੁਤ ਿਜ਼ਆਦਾ ਸੌਣਾ";
+"question_4_header" = "Feeling tired or having little energy.\nਥਕਾਨ ਮਿਹਸਸੂ ਕਰਨੀ ਜ  ਸਫੂਰਤੀ ਘੱਟ ਹੋਣੀ";
+"question_5_header" = "Poor appetite or overeating.\nਭੁੱਖ ਘੱਟ ਲੱਗਣੀ ਜ  ਬਹੁਤ ਿਜ਼ਆਦਾ ਖਾਣਾ";
+"question_6_header" = "Feeling bad about yourself - or that you are a failure or having let yourself or your family down.\nਆਪਣੇ ਬਾਰੇ ਬੁਰਾ ਮਹਿਸੂਸ ਕਰ ਰਹੇ ਹੋ - ਜਾਂ ਇਹ ਕਿ ਤੁਸੀਂ ਇੱਕ ਅਸਫਲਤਾ ਹੋ ਗਏ ਹੋ ਜਾਂ ਆਪਣੇ ਆਪ ਨੂੰ ਜਾਂ ਆਪਣੇ ਪਰਿਵਾਰ ਨੂੰ ਹੇਠਾਂ ਆਉਣ ਦਿੰਦੇ ਹੋ";
+"question_7_header" = "Trouble concentrating on things, such as reading the newspaper or watching television.\nਚੀਜ਼  'ਤੇ ਿਧਆਨ ਲਗਾਉਣ ਿਵੱਚ ਪਰੇਸ਼ਾਨੀ ਹੋਣੀ, ਿਜਵ  ਿਕ ਅਖਬਾਰ ਪੜ ਨ ਜ  ਟੈਲੀਵੀਜ਼ਨ ਦੇਖਣ ਿਵੱਚ";
+"question_8_header" = "Moving or speaking so slowly that people could have noticed? Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual\nਕੀ ਹੌਲੀ ਹੌਲੀ ਹਿਲਾਉਣਾ ਜਾਂ ਬੋਲਣਾ ਲੋਕਾਂ ਨੂੰ ਦੇਖਿਆ ਜਾ ਸਕਦਾ ਸੀ? ਜਾਂ ਇਸ ਦੇ ਉਲਟ - ਇੰਨੀ ਗੁਸਤਾਖ਼ੀ ਵਾਲੀ ਜਾਂ ਬੇਚੈਨ ਹੋਣ ਨਾਲ ਕਿ ਤੁਸੀਂ ਆਮ ਨਾਲੋਂ ਵੱਧ ਹੋਰ ਅੱਗੇ ਵਧ ਰਹੇ ਹੋ";
+"question_9_header" = "Thoughts that you would be better off dead, or of hurting yourself in some way.\nਸੋਚ ਇਹ ਹੈ ਕਿ ਤੁਸੀਂ ਮੁਰਦੇ ਤੋਂ ਬਿਹਤਰ ਹੋ, ਜਾਂ ਕਿਸੇ ਤਰੀਕੇ ਨਾਲ ਆਪਣੇ ਆਪ ਨੂੰ ਦੁੱਖ ਪਹੁੰਚਾਉਣਾ.";
 
-"question_1_header" = "Loss of interest or pleasure in doing things.";
-"question_2_header" = "Feeling of down, depressed, or hopeless.";
-"question_3_header" = "Trouble sleeping, or sleeping too much.";
-"question_4_header" = "Feeling tired or having little energy.";
-"question_5_header" = "Poor appetite or overeating.";
-"question_6_header" = "Feeling bad about yourself - or that you are a failure or having let yourself or your family down.";
-"question_7_header" = "Trouble concentrating on things, such as reading the newspaper or watching television.";
-"question_8_header" = "Moving or speaking so slowly that people could have noticed? Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual";
-"question_9_header" = "Thoughts that you would be better off dead, or of hurting yourself in some way.";
+"option_more_than_half_the_days" = "More than half the days\nਅੱਧੇ ਤੋਂ ਵੱਧ ਦਿਨ";
+"option_nearly_every_day" = "Nearly every day\nਲਗਭਗ ਹਰ ਦਿਨ";
+"option_not_at_all" = "Not at all\nਬਿਲਕੁਲ ਨਹੀਂ";
+"option_several_days" = "Several days\nਕਈ ਦਿਨ";
 
-"option_more_than_half_the_days" = "More than half the days";
-"option_nearly_every_day" = "Nearly every day";
-"option_not_at_all" = "Not at all";
-"option_several_days" = "Several days";
+"result_header" = "You responses indicate that you have\nਤੁਸੀਂ ਜਵਾਬ ਦਿੰਦੇ ਹੋ ਕਿ ਤੁਹਾਡੇ ਕੋਲ ਹੈ";
+"possible_score_label" = "POSSIBLE SCORE | ਸੰਭਵ ਸਕੋਰ";
+"your_score_label" = "YOUR SCORE | ਤੁਹਾਡੇ ਸਕੋਰ";
 
-"result_header" = "You responses indicate that you have";
-"possible_score_label" = "POSSIBLE SCORE";
-"your_score_label" = "YOUR SCORE";
-
-"result_mild_depression" = "mild depression";
-"result_minimal_depression" = "minimal depression";
-"result_moderate_depression" = "moderate depression";
-"result_moderately_severe_depression" = "moderately severe depression";
-"result_no_depression" = "no depression";
-"result_severe_depression" = "severe depression";
+"result_mild_depression" = "mild depression\nਹਲਕੇ ਉਦਾਸੀ";
+"result_minimal_depression" = "minimal depression\nਨਿਊਨਤਮ ਉਦਾਸੀ";
+"result_moderate_depression" = "moderate depression\nਮੱਧਮ ਉਦਾਸੀ";
+"result_moderately_severe_depression" = "moderately severe depression\nਔਸਤਨ ਗੰਭੀਰ ਉਦਾਸੀ";
+"result_no_depression" = "no depression\nਕੋਈ ਨਿਰਾਸ਼ਾ ਨਹੀਂ";
+"result_severe_depression" = "severe depression\nਗੰਭੀਰ ਉਦਾਸੀ";
 
 "result_text_mild_depression" = "Your answers indicate that you have a mild depression.";
 "result_text_minimal_depression" = "Your answers indicate that you have a minimal depression.";
@@ -55,3 +53,7 @@
 "info_depression" = "You have answered four or more questions with at least \"more than half the days\", including the first or second question. Therefore a depressive disorder has to be considered.";
 
 "find_help_credits_format" = "The 'Find Help' link is provided by the %@";
+
+"details_no_depression" = "Based on your responses, you do not appear to be suffering a type of depression. If you feel you might be, you should contact the anonymous, safe, and confidential helpline provided by the Sikh Family Center. You can leave a message on voicemail and expect to hear back within 48 hours.\n\nਤੁਹਾਡੇ ਜਵਾਬਾਂ ਦੇ ਅਧਾਰ ਤੇ, ਤੁਸੀਂ ਕਿਸੇ ਵੀ ਕਿਸਮ ਦੀ ਉਦਾਸੀ ਮਹਿਸੂਸ ਨਹੀਂ ਕਰਦੇ । ਜੇ ਤੁਸੀਂ ਮਹਿਸੂਸ ਕਰਦੇ ਹੋ ਕਿ ਤੁਸੀਂ ਸ਼ਾਇਦ ਨਿਰਾਸ਼ਾ ਜਾਂ ਉਦਾਸੀ ਪੀੜਤ ਹੋ, ਤਾਂ ਤੁਹਾਨੂੰ ਸਿੱਖ ਫੈਮਿਲੀ ਸੈਂਟਰ ਦੁਆਰਾ ਆਸਰਿਤ ਕੀਤੇ ਗਏ ਅਗਿਆਤ, ਸੁਰੱਖਿਅਤ, ਅਤੇ ਗੁਪਤ ਹੈਲਪਲਾਈਨ ਨੂੰ ਧਿਆਨ ਵਿਚ ਰੱਖਣਾ ਚਾਹੀਦਾ ਹੈ । ਤੁਸੀਂ ਵੌਇਸਮੇਲ 'ਤੇ ਇੱਕ ਸੁਨੇਹਾ ਛੱਡ ਸਕਦੇ ਹੋ ਅਤੇ 48 ਘੰਟਿਆਂ ਦੇ ਅੰਦਰ ਅੰਦਰ ਵਾਪਸ ਸੁਣ ਸਕਦੇ ਹੋ ।";
+
+"details_depression" = "Based on your responses, it is likely that you could be suffering from a type of depression. You should contact the anonymous, safe, and confidential helpline provided by the Sikh Family Center. You can leave a message on voicemail and expect to hear back within 48 hours.\n\nਤੁਹਾਡੇ ਜਵਾਬਾਂ ਦੇ ਆਧਾਰ ਤੇ, ਸੰਭਾਵਨਾ ਹੈ ਕਿ ਤੁਸੀਂ ਕਿਸੇ ਕਿਸਮ ਦੇ ਨਿਰਾਸ਼ਾ ਤੋਂ ਪੀੜਤ ਹੋ ਸਕਦੇ ਹੋ । ਸਿੱਖ ਫ਼ੈਮਲੀ ਸੈਂਟਰ ਦੁਆਰਾ ਆਸਰਿਤ ਕੀਤੀ ਗਈ ਅਗਿਆਤ, ਸੁਰੱਖਿਅਤ ਅਤੇ ਗੁਪਤ ਹੈਲਪਲਾਈਨ ਨਾਲ ਤੁਹਾਨੂੰ ਸੰਪਰਕ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ । ਤੁਸੀਂ ਵੌਇਸਮੇਲ ਉੱਤੇ ਇੱਕ ਸੁਨੇਹਾ ਛੱਡ ਸਕਦੇ ਹੋ ਅਤੇ 48 ਘੰਟਿਆਂ ਦੇ ਅੰਦਰ-ਅੰਦਰ ਵਾਪਸ ਸੁਣ ਸਕਦੇ ਹੋ ।";

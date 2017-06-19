@@ -83,8 +83,8 @@ public var SurveyTask: ORKOrderedTask {
                                      answer: answer_format)
     question_9.isOptional = false
     
-    steps += [instruction_step, question_1, question_2]
-    //steps += [instruction_step, question_1, question_2, question_3, question_4, question_5, question_6, question_7, question_8, question_9]
+    //steps += [instruction_step, question_1, question_2]
+    steps += [instruction_step, question_1, question_2, question_3, question_4, question_5, question_6, question_7, question_8, question_9]
         
     return ORKOrderedTask(identifier: "SurveyTask", steps: steps)
 }

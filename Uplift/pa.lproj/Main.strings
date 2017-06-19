@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "moderate depression"; ObjectID = "Ehu-fP-bJ0"; */
+"Ehu-fP-bJ0.text" = "moderate depression";
+
+/* Class = "UILabel"; text = "YOUR SCORE"; ObjectID = "Fhy-jw-xdT"; */
+"Fhy-jw-xdT.text" = "YOUR SCORE";
+
+/* Class = "UILabel"; text = "Uplifted"; ObjectID = "MBm-59-s8G"; */
+"MBm-59-s8G.text" = "Uplifted";
+
+/* Class = "UILabel"; text = "13"; ObjectID = "VdA-9F-uxL"; */
+"VdA-9F-uxL.text" = "13";
+
+/* Class = "UILabel"; text = "some text goes here"; ObjectID = "Vgw-es-dfD"; */
+"Vgw-es-dfD.text" = "some text goes here";
+
+/* Class = "UILabel"; text = "POSSIBLE SCORE"; ObjectID = "Wku-0c-1Qq"; */
+"Wku-0c-1Qq.text" = "POSSIBLE SCORE";
+
+/* Class = "UILabel"; text = "detail goes here"; ObjectID = "XXJ-4k-YSK"; */
+"XXJ-4k-YSK.text" = "detail goes here";
+
+/* Class = "UILabel"; text = "27"; ObjectID = "Z4o-1x-dv3"; */
+"Z4o-1x-dv3.text" = "27";
+
+/* Class = "UILabel"; text = "The PHQ-9 Test"; ObjectID = "hgF-h2-lWf"; */
+"hgF-h2-lWf.text" = "The PHQ-9 Test";
+
+/* Class = "UIButton"; normalTitle = "(408) 800-SEVA (7382)"; ObjectID = "iCN-pH-Vo4"; */
+"iCN-pH-Vo4.normalTitle" = "(408) 800-SEVA (7382)";
+
+/* Class = "UILabel"; text = "You will be asked 9 questions to determine if you are suffering from a form of depression."; ObjectID = "qem-6M-QZo"; */
+"qem-6M-QZo.text" = "You will be asked 9 questions to determine if you are suffering from a form of depression.";
+
+/* Class = "UILabel"; text = "Sikh Family Center"; ObjectID = "r4d-qb-kaq"; */
+"r4d-qb-kaq.text" = "Sikh Family Center";
+
+/* Class = "UIButton"; normalTitle = "Start"; ObjectID = "tki-Pw-mMo"; */
+"tki-Pw-mMo.normalTitle" = "Start";
+
+/* Class = "UILabel"; text = "ਸਿੱਖ ਫੈਮਿਲੀ ਸੈਂਟਰ "; ObjectID = "vM4-mY-vie"; */
+"vM4-mY-vie.text" = "ਸਿੱਖ ਫੈਮਿਲੀ ਸੈਂਟਰ ";

@@ -15,6 +15,7 @@ class ResultsViewController: UIViewController {
     @IBOutlet weak var your_score: UILabel!
     @IBOutlet weak var possible_score_label: UILabel!
     @IBOutlet weak var your_score_label: UILabel!
+    @IBOutlet weak var details_text: UILabel!
     
     var resultsPassed = [Int]()
 
@@ -75,7 +76,15 @@ class ResultsViewController: UIViewController {
             self.result_text.text = NSLocalizedString("result_no_depression", comment: "")
         }
         
+        if score > 0 {
+            self.details_text.text = NSLocalizedString("details_depression", comment: "")
+        }
+        else {
+            self.details_text.text = NSLocalizedString("details_no_depression", comment: "")
+        }
+        
         self.your_score.text = String(score)
+
     }
 
 

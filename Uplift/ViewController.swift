@@ -16,7 +16,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var info_text: UILabel!
     @IBOutlet weak var start_button: UIButton!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -33,10 +32,9 @@ class ViewController: UIViewController {
         self.subtitle_text.fadeIn()
         self.info_text.fadeIn()
         self.start_button.fadeIn()
-        
+                        
     }
-    
-    @IBAction func surveyTapped(sender : AnyObject) {
+    @IBAction func startTest(_ sender: UIButton) {
         let taskViewController = ORKTaskViewController(task: SurveyTask, taskRun: nil)
         taskViewController.delegate = self
         present(taskViewController, animated: true, completion: nil)
